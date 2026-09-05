@@ -1,13 +1,19 @@
-# ibm-developer-skills-network
-Project
-# IBM Developer Skills Network - Git and GitHub Final Project
+# Simple Interest Calculator
 
-## Project Name
-Final Project: GitHub UI and Git CLI
+## Project Overview
+This project contains a Bash script to calculate simple interest based on principal, rate of interest, and time period.
 
-## Description
-This project demonstrates GitHub and Git skills including repository management, 
-branching, merging, and command-line operations.
+## Formula
+Simple Interest (SI) = (Principal × Rate × Time) / 100
 
-## Author
-[JASMI]
+Total Amount = Principal + Simple Interest
+
+## Features
+- User-friendly input prompts
+- Accurate calculation using bc command
+- Displays principal, rate, time, interest, and total amount
+- Easy to use and understand
+
+## How to Use
+```bash
+./simple-interest.sh
